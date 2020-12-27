@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow: hidden;
+}
+
+.container-fluid {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eceef0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.middle-form {
+  height: 480px;
+  position: relative;
+  left: 26px;
+}
+.photo {
+  height: 180px;
+  background: linear-gradient(rgba(107, 124, 130, 0.2), rgba(96, 112, 122, 0.5)),
+    url(../assets/login-photo4.jpg) center center no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+.photo > h3 {
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  top: 80px;
+}
+
+.middle-form .form {
+  width: 610px;
+  height: 330px;
+  background-color: #fff;
+  padding: 25px 65px;
+  border-radius: 0 0 10px 10px;
+}
+.form-label {
+  color: #909090;
+  font-size: 14px;
+}
+
+.login-footer {
+
+  color: #909090;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4px 65px 0 65px;
+}
+.login-footer > input {
+  margin-right: 3px;
+}
+.login-footer > label {
+  margin-right: 45px;
+}
+.form > form > input {
+  width: 75%;
+  margin:  20px 15px 0 15px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid#C6C6C6;
+}
+
+.form .submit {
+  padding: 8px 45px;
+  width: 120px;
+  height: 40px;
+  margin:2px 0px 0 85px;
+  border-radius: 25px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #b4a18b;
+  outline: none;
+  transition: all 500ms ease-out;
+}
+.submit:hover {
+  background-color: #8f755e;
+}
