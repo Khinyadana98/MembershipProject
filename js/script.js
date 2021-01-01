@@ -12,7 +12,7 @@ const passHelperFormat =
 const userInput = document.getElementById("username");
 const passwordInput = document.getElementById("password");
 
-const userRegex = /[^a-zA-Z0-9\\,\\_\\.\\;]/g;
+const userRegex = /[^a-zA-Z0-9\\,\\ \\_\\.\\;]/g;
 const passwordReg = /^(?=.*[\d])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*])[\w!@#$%^&*]{8,}$/;
 
 const validateUsername = () => {
